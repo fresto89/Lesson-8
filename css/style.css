@@ -1,0 +1,292 @@
+/* &display=swap */
+
+@import "null.css";
+
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap");
+
+/* ================================================================ */
+.wrapper {
+	font-family: "Oswald", sans-serif;
+	font-size: 20px;
+	overflow: hidden;
+	margin: 0px auto;
+}
+/* ================================================================ */
+
+.main-menu__page {
+	background: url("../img/Logo.png") center no-repeat, url("../img/Titul.gif") center / cover no-repeat;
+}
+
+.game-over__page {
+	background: url("../img/Game_over.jpg") center repeat;
+}
+
+.winner__page {
+	background: url("../img/winner.gif") center repeat;
+}
+
+.game-1__page {
+	background: radial-gradient(
+			circle,
+			rgba(255, 255, 255, 0.3725199552477241) 20%,
+			rgba(255, 255, 255, 0.9523518880208334) 80%
+		),
+		url("../img/Background-1.jpg") center / cover no-repeat;
+}
+
+.titul__header {
+	font-family: "Russo One", sans-serif;
+	font-size: 70px;
+	text-align: center;
+	text-decoration: underline;
+	color: aquamarine;
+	text-shadow: 5px 1px 1px rgb(248, 84, 63);
+}
+
+.game-over__header {
+	font-family: "Russo One", sans-serif;
+	font-size: 70px;
+	text-align: center;
+	text-decoration: underline;
+	color: aquamarine;
+	text-shadow: 5px 1px 1px rgb(248, 84, 63);
+	border: 3px solid rgb(255, 0, 0);
+	border-radius: 5%;
+	background-image: radial-gradient(circle, rgba(144, 149, 244, 0) 0%, rgba(111, 27, 27, 1) 100%);
+}
+
+.winner__header {
+	font-family: "Russo One", sans-serif;
+	font-size: 70px;
+	text-align: center;
+	text-decoration: underline;
+	color: rgb(6, 0, 90);
+	text-shadow: 5px 1px 1px rgb(248, 84, 63);
+	border: 3px solid rgb(255, 0, 0);
+	border-radius: 5%;
+	background-color: chartreuse;
+}
+
+.block__start-game {
+	margin: 0px auto;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.botton__start-game {
+	font-family: "Russo One", sans-serif;
+	max-width: 400px;
+	display: inline-block;
+	font-size: 50px;
+	color: azure;
+	border: 6px solid rgb(157, 250, 51);
+	border-radius: 15px;
+	box-shadow: 4px 4px 5px 0px rgb(255, 245, 99);
+}
+
+.botton__start-game:hover {
+	text-decoration: underline;
+	color: rgb(79, 15, 230);
+	background-color: crimson;
+	box-shadow: 4px 2px 5px 0px rgb(255, 245, 99);
+	margin: 3px 0px 0px 0px;
+}
+
+.botton__start-game:active {
+	color: deepskyblue;
+	box-shadow: 4px 0px 5px 0px rgb(255, 245, 99);
+	margin: 5px 0px 0px 0px;
+}
+
+.botton__start-game:visited {
+	color: rgba(197, 221, 120, 0.52);
+}
+
+.botton__start-game:focus,
+.botton__new-game:focus,
+.botton__exit-game:focus,
+.main__list-1 a:focus {
+	outline: 4px dotted rgb(255, 0, 0);
+}
+
+.header__menu {
+	font-size: 0px;
+	text-align: center;
+	margin: 0px 0px 30px 0px;
+}
+
+.header__menu a:hover::after {
+	content: "";
+	display: block;
+	height: 2px;
+	width: 100%;
+	margin: 1px 0px 0px 0px;
+	background-color: rgb(0, 217, 255);
+}
+
+.block__new-game,
+.block__exit-game {
+	font-size: 20px;
+	display: inline-block;
+	padding: 10px;
+}
+
+.botton__new-game,
+.botton__exit-game {
+	display: inline-block;
+	border-radius: 8px;
+	box-shadow: 0px 3px 0px 0px #000;
+	padding: 5px;
+	border: 1px solid #000;
+	background-image: radial-gradient(
+		circle,
+		rgba(58, 175, 180, 1) 0%,
+		rgba(29, 253, 240, 1) 50%,
+		rgba(69, 252, 171, 0.40333228017769607) 100%
+	);
+}
+
+.botton__new-game:hover,
+.botton__exit-game:hover {
+	color: rgba(255, 228, 196, 0.774);
+	background-image: radial-gradient(circle, rgba(144, 243, 244, 0.4985703754157913) 0%, rgba(0, 39, 84, 1) 100%);
+	box-shadow: inset 0px 1px 5px 1px #000, 0px 3px 0px 0px #000;
+}
+
+.botton__new-game:active,
+.botton__exit-game:active {
+	color: darkred;
+	box-shadow: inset 0px 1px 1px 1px #000, 0px 2px 2px 0px #000;
+}
+
+.level__number {
+	font-family: "Russo One", sans-serif;
+	font-size: 46px;
+	text-align: center;
+	letter-spacing: 5px;
+	color: green;
+	text-shadow: 3px 2px 0px #000;
+	margin-bottom: 20px;
+}
+
+.number__question {
+	font-size: 24px;
+	font-weight: 700;
+	text-decoration: underline;
+	text-align: center;
+	color: rgb(255, 2, 2);
+	text-shadow: 1px 1px 0px #000;
+	margin-bottom: 20px;
+}
+
+#question-1-botton,
+#question-2-botton,
+#question-3-botton,
+#question-4-botton,
+#question-5-botton {
+	display: none;
+}
+
+#question-1-botton:target,
+#question-2-botton:target,
+#question-3-botton:target,
+#question-4-botton:target,
+#question-5-botton:target {
+	display: block;
+}
+
+.question-text {
+	font-size: 28px;
+	font-weight: 700;
+	letter-spacing: 3px;
+	text-align: center;
+	color: rgb(21, 105, 87);
+	text-shadow: 0px 1px 0px #000;
+	margin-bottom: 30px;
+}
+
+.main__list-1 a:first-child {
+	display: block;
+	max-width: 400px;
+	color: rgb(163, 0, 68);
+	background: linear-gradient(
+		90deg,
+		rgba(198, 244, 144, 0.1680381625306373) 64%,
+		rgba(32, 0, 84, 0.32209978718049714) 100%
+	);
+	border: 2px solid #000;
+	border-radius: 4px;
+	box-shadow: 0px 5px 3px #000;
+	padding: 5px 0px 5px 30px;
+	margin: 0px auto 20px;
+}
+
+.main__list-1 a:nth-child(2) {
+	display: block;
+	max-width: 400px;
+	color: rgb(163, 0, 68);
+	background: linear-gradient(
+		90deg,
+		rgba(198, 244, 144, 0.1680381625306373) 64%,
+		rgba(32, 0, 84, 0.32209978718049714) 100%
+	);
+	border: 2px solid #000;
+	border-radius: 4px;
+	box-shadow: 0px 5px 3px #000;
+	padding: 5px 0px 5px 30px;
+	margin: 0px auto 20px;
+}
+
+.main__list-1 a:nth-child(3) {
+	display: block;
+	max-width: 400px;
+	color: rgb(163, 0, 68);
+	background: linear-gradient(
+		90deg,
+		rgba(198, 244, 144, 0.1680381625306373) 64%,
+		rgba(32, 0, 84, 0.32209978718049714) 100%
+	);
+	border: 2px solid #000;
+	border-radius: 4px;
+	box-shadow: 0px 5px 3px #000;
+	padding: 5px 0px 5px 30px;
+	margin: 0px auto 20px;
+}
+
+.main__list-1 a:last-child {
+	display: block;
+	max-width: 450px;
+	color: rgb(163, 0, 68);
+	background: linear-gradient(
+		90deg,
+		rgba(198, 244, 144, 0.1680381625306373) 64%,
+		rgba(32, 0, 84, 0.32209978718049714) 100%
+	);
+	border: 2px solid #000;
+	border-radius: 4px;
+	box-shadow: 0px 5px 3px #000;
+	padding: 5px 0px 5px 30px;
+	margin: 0px auto 20px;
+}
+
+.main__list-1 a:hover {
+	color: rgb(4, 0, 255);
+	box-shadow: inset 2px 3px 4px 1px rgb(48, 42, 42), 0px 3px 3px #000;
+}
+
+.main__list-1 a:hover::before {
+	content: "";
+	display: inline-block;
+	height: 20px;
+	width: 20px;
+	margin: 0px 0px 0px -30px;
+	background: url("../img/Icon-1.png") 0px 4px / 16px no-repeat;
+}
+
+.main__list-1 a:active {
+	color: rgb(0, 255, 76);
+	background-color: crimson;
+	box-shadow: inset 2px 3px 4px 1px rgb(48, 42, 42), 0px 1px 3px #000;
+}
